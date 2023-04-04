@@ -109,7 +109,9 @@ section.banner {
 .carousel-banner .owl-nav button.owl-prev span,
 .carousel-banner .owl-nav button.owl-next span,
 .carousel-partner-logo .owl-nav button.owl-prev span,
-.carousel-partner-logo .owl-nav button.owl-next span {
+.carousel-partner-logo .owl-nav button.owl-next span,
+.carousel-testimonial .owl-nav button.owl-prev span,
+.carousel-testimonial .owl-nav button.owl-next span {
     display: none !important;
 }
 .carousel-banner .owl-nav button.owl-prev:before {
@@ -214,6 +216,7 @@ section.about {
 }
 /* End About */
 
+/* Calculator */
 section.calculate {
     padding: 50px 0px;
 }
@@ -245,9 +248,9 @@ section.calculate {
 }
 .calculate_form_btn a:hover {
     background: #fff;
-    border: 2px solid #2da8f1e3;
     color: #2da8f1e3 !important;
 }
+/* End Calculator */
 
 /* Section Testimonial */
 section.testimonial {
@@ -255,7 +258,6 @@ section.testimonial {
 }
 .testimonial_heading h2 {
     text-align: center;
-    margin-bottom: 40px;
 }
 .carousel-testimonial .testimonial1 {
     position: relative;
@@ -302,16 +304,10 @@ section.testimonial {
     content: "\f177";
     font-family: 'FontAwesome';
 }
-.carousel-testimonial .owl-nav button.owl-prev span {
-    display: none !important;
-}
 .carousel-testimonial .owl-nav button.owl-next:before {
     content: "\f178";
     font-family: 'FontAwesome';
     margin-left: 20px;
-}
-.carousel-testimonial .owl-nav button.owl-next span {
-    display: none !important;
 }
 .carousel-testimonial .owl-dots{
     display: none !important;
@@ -345,7 +341,7 @@ section.subscribe {
 .subscribe_form form a img {
     position: absolute;
     top: 10px;
-    right: 120px;
+    right: 10px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -365,7 +361,6 @@ section.contact {
 }
 .contact_heading h2 {
     text-align: center;
-    margin-bottom: 40px;
 }
 .contact_us {
     z-index: 9;
@@ -913,6 +908,5 @@ footer .copyright {
         display: block;
     }
     /* end footer for mobile */
-
 }
 
