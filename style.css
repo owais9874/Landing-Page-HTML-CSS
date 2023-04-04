@@ -14,7 +14,6 @@ body {
 a{text-decoration: none !important;}
 a:hover{text-decoration: none !important;}
 ul {
-    list-style: none;
     margin: 0px;
     padding: 0px;
 }
@@ -38,15 +37,8 @@ ul {
     background-image: url('images/Untitled-3.jpg');
     position: fixed;
     padding: 10px 0;
-    z-index: 16;
-    left: 0;
-    right: 0;
-    width: 100%;
-    transition: 0.3s;
 }
 header.header .dekstop-menu ul {
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,9 +52,9 @@ header.header .dekstop-menu ul li {
 }
 header.header .dekstop-menu ul li a {
     color: #000000;
-    transition: 0.3s;
     padding: 10px 20px;
     border-radius: 10px;
+    transition: 0.3s;
 }
 header.header .dekstop-menu ul li a:hover{
     background: #141f3f;
@@ -110,29 +102,22 @@ section.banner {
 .banner_txt h2 span {
     color: #3776d4;
 }
-.banner_btn {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 .carousel-banner .owl-nav {
     display: block !important;
     margin-top: 30px;
+}
+.carousel-banner .owl-nav button.owl-prev span,
+.carousel-banner .owl-nav button.owl-next span {
+    display: none !important;
 }
 .carousel-banner .owl-nav button.owl-prev:before {
     content: "\f177";
     font-family: 'FontAwesome';
 }
-.carousel-banner .owl-nav button.owl-prev span {
-    display: none !important;
-}
 .carousel-banner .owl-nav button.owl-next:before {
     content: "\f178";
     font-family: 'FontAwesome';
     margin-left: 20px;
-}
-.carousel-banner .owl-nav button.owl-next span {
-    display: none !important;
 }
 .banner_img img {
     position: absolute;
