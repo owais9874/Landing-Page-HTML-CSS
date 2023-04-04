@@ -107,7 +107,9 @@ section.banner {
     margin-top: 30px;
 }
 .carousel-banner .owl-nav button.owl-prev span,
-.carousel-banner .owl-nav button.owl-next span {
+.carousel-banner .owl-nav button.owl-next span,
+.carousel-partner-logo .owl-nav button.owl-prev span,
+.carousel-partner-logo .owl-nav button.owl-next span {
     display: none !important;
 }
 .carousel-banner .owl-nav button.owl-prev:before {
@@ -175,17 +177,11 @@ section.partner {
     position: absolute;
     left: -40px;
 }
-.carousel-partner-logo .owl-nav button.owl-prev span {
-    display: none !important;
-}
 .carousel-partner-logo .owl-nav button.owl-next:before {
     content: "\f178";
     font-family: 'FontAwesome';
     position: absolute;
     right: -40px;
-}
-.carousel-partner-logo .owl-nav button.owl-next span {
-    display: none !important;
 }
 /* End Partner */
 
